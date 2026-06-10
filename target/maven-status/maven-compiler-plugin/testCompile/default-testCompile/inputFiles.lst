@@ -1,0 +1,9 @@
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/base/BaseTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/pages/CocineroPage.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/pages/LoginPage.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP01PanelCocineroTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP02PanelCocineroSeccionesTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP03CambiarEstadoPreparacionTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP04MarcarPedidoEntregadoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP05FlujoCompletoEstadosTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/SeleniumTest.java

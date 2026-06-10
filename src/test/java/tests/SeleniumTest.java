@@ -1,0 +1,1 @@
+package tests;import org.junit.jupiter.api.Test;import org.openqa.selenium.WebDriver;import org.openqa.selenium.chrome.ChromeDriver;public class SeleniumTest {    @Test    void abrirPagina() {        WebDriver driver = new ChromeDriver();        driver.get("https://google.com");        System.out.println(driver.getTitle());        driver.quit();    }}

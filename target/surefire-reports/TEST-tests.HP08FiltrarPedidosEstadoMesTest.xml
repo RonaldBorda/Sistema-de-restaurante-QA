@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tests.HP02PanelCocineroSeccionesTest" time="7.366" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tests.HP08FiltrarPedidosEstadoMesTest" time="12.042" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -60,13 +60,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="panelCocineroDistingueSecciones" classname="tests.HP02PanelCocineroSeccionesTest" time="7.364">
-    <system-out><![CDATA[Ejecutando HP-02: Distinción de secciones
-HP-02 ejecutado correctamente.
+  <testcase name="administradorFiltraPedidosPorEstadoYMes" classname="tests.HP08FiltrarPedidosEstadoMesTest" time="12.041">
+    <system-out><![CDATA[Ejecutando HP-08: Administrador filtra pedidos por estado y mes
+HP-08 ejecutado correctamente.
 ]]></system-out>
-    <system-err><![CDATA[jun. 11, 2026 9:17:27 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jun. 11, 2026 9:17:42 A. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 ADVERTENCIA: Unable to find CDP implementation matching 149
-jun. 11, 2026 9:17:27 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+jun. 11, 2026 9:17:42 A. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 ADVERTENCIA: Unable to find version of CDP to use for 149.0.7827.55. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

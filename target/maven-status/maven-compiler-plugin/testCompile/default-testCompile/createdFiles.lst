@@ -1,7 +1,12 @@
-tests/HP04MarcarPedidoEntregadoTest.class
 tests/HP02PanelCocineroSeccionesTest.class
-tests/HP05FlujoCompletoEstadosTest.class
+pages/CrearPlatoPage.class
 tests/HP01PanelCocineroTest.class
+tests/HP08FiltrarPedidosEstadoMesTest.class
+tests/HP04MarcarPedidoEntregadoTest.class
+tests/HP05FlujoCompletoEstadosTest.class
+pages/AdminPage.class
+tests/HP06AgregarPlatoTest.class
+tests/HP07FiltrarPedidosTodosTest.class
 tests/HP03CambiarEstadoPreparacionTest.class
 pages/CocineroPage.class
 pages/LoginPage.class

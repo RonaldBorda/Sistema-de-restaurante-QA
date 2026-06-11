@@ -1,4 +1,5 @@
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/base/BaseTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/pages/AdminPage.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/pages/CocineroPage.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/pages/CrearPlatoPage.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/pages/LoginPage.java
@@ -8,3 +9,5 @@
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP04MarcarPedidoEntregadoTest.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP05FlujoCompletoEstadosTest.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP06AgregarPlatoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP07FiltrarPedidosTodosTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP08FiltrarPedidosEstadoMesTest.java

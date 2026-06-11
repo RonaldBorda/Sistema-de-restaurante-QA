@@ -1,0 +1,8 @@
+tests/HP04MarcarPedidoEntregadoTest.class
+tests/HP02PanelCocineroSeccionesTest.class
+tests/HP05FlujoCompletoEstadosTest.class
+tests/HP01PanelCocineroTest.class
+tests/HP03CambiarEstadoPreparacionTest.class
+pages/CocineroPage.class
+pages/LoginPage.class
+base/BaseTest.class

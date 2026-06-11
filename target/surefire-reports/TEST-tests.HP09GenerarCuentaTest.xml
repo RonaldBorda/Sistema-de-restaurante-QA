@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tests.HP07FiltrarPedidosTodosTest" time="11.861" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="tests.HP09GenerarCuentaTest" time="11.711" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="26"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -60,13 +60,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="administradorFiltraPedidosDelDiaPorEstadoTodos" classname="tests.HP07FiltrarPedidosTodosTest" time="11.86">
-    <system-out><![CDATA[Ejecutando HP-07: Administrador filtra pedidos del día por estado Todos
-HP-07 ejecutado correctamente.
+  <testcase name="generarCuentaCorrectamenteParaPedidoCompletado" classname="tests.HP09GenerarCuentaTest" time="11.709">
+    <system-out><![CDATA[Ejecutando HP-09: Generar cuenta correctamente para pedido completado
+HP-09 ejecutado correctamente.
 ]]></system-out>
-    <system-err><![CDATA[jun. 11, 2026 4:41:08 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jun. 11, 2026 4:40:07 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 ADVERTENCIA: Unable to find CDP implementation matching 149
-jun. 11, 2026 4:41:08 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+jun. 11, 2026 4:40:07 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 ADVERTENCIA: Unable to find version of CDP to use for 149.0.7827.115. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>

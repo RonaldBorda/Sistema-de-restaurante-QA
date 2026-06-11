@@ -6,21 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP01PanelCocineroTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP01PanelCocineroTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP02PanelCocineroSeccionesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP02PanelCocineroSeccionesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP03CambiarEstadoPreparacionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP03CambiarEstadoPreparacionTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP04MarcarPedidoEntregadoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP04MarcarPedidoEntregadoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP05FlujoCompletoEstadosTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP05FlujoCompletoEstadosTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP06AgregarPlatoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP06AgregarPlatoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP07FiltrarPedidosTodosTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP07FiltrarPedidosTodosTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP08FiltrarPedidosEstadoMesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP08FiltrarPedidosEstadoMesTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP01PanelCocineroTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP01PanelCocineroTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP02PanelCocineroSeccionesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP02PanelCocineroSeccionesTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP03CambiarEstadoPreparacionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP03CambiarEstadoPreparacionTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP04MarcarPedidoEntregadoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP04MarcarPedidoEntregadoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP05FlujoCompletoEstadosTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP05FlujoCompletoEstadosTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP06AgregarPlatoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP06AgregarPlatoTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP08FiltrarPedidosEstadoMesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP08FiltrarPedidosEstadoMesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/HP03CambiarEstadoPreparacionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HP03CambiarEstadoPreparacionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP01PanelCocineroTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP01PanelCocineroTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP03CambiarEstadoPreparacionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP03CambiarEstadoPreparacionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP04MarcarPedidoEntregadoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP04MarcarPedidoEntregadoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP05FlujoCompletoEstadosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP05FlujoCompletoEstadosTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP06AgregarPlatoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP06AgregarPlatoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP07FiltrarPedidosTodosTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP07FiltrarPedidosTodosTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HP08FiltrarPedidosEstadoMesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HP08FiltrarPedidosEstadoMesTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,22 +48,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HP08FiltrarPedidosEstadoMesTest">
-    <configuration name="HP04MarcarPedidoEntregadoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestauranteAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HP04MarcarPedidoEntregadoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HP09GenerarCuentaTest">
     <configuration name="HP05FlujoCompletoEstadosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestauranteAutomation" />
       <extension name="coverage">
@@ -131,13 +109,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HP09GenerarCuentaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestauranteAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HP09GenerarCuentaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HP09GenerarCuentaTest" />
         <item itemvalue="JUnit.HP08FiltrarPedidosEstadoMesTest" />
         <item itemvalue="JUnit.HP07FiltrarPedidosTodosTest" />
         <item itemvalue="JUnit.HP06AgregarPlatoTest" />
         <item itemvalue="JUnit.HP05FlujoCompletoEstadosTest" />
-        <item itemvalue="JUnit.HP04MarcarPedidoEntregadoTest" />
       </list>
     </recent_temporary>
   </component>

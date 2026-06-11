@@ -1,7 +1,9 @@
 tests/HP02PanelCocineroSeccionesTest.class
 pages/CrearPlatoPage.class
 tests/HP01PanelCocineroTest.class
+tests/HP09GenerarCuentaTest.class
 tests/HP08FiltrarPedidosEstadoMesTest.class
+pages/CamareroPage.class
 tests/HP04MarcarPedidoEntregadoTest.class
 tests/HP05FlujoCompletoEstadosTest.class
 pages/AdminPage.class

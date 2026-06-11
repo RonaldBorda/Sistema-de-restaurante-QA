@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="" />
+    <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CocineroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CocineroPage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,22 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HP05FlujoCompletoEstadosTest">
-    <configuration name="HP01PanelCocineroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RestauranteAutomation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HP01PanelCocineroTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.HP06AgregarPlatoTest">
     <configuration name="HP02PanelCocineroSeccionesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestauranteAutomation" />
       <extension name="coverage">
@@ -112,13 +99,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HP06AgregarPlatoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestauranteAutomation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HP06AgregarPlatoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HP06AgregarPlatoTest" />
         <item itemvalue="JUnit.HP05FlujoCompletoEstadosTest" />
         <item itemvalue="JUnit.HP04MarcarPedidoEntregadoTest" />
         <item itemvalue="JUnit.HP03CambiarEstadoPreparacionTest" />
         <item itemvalue="JUnit.HP02PanelCocineroSeccionesTest" />
-        <item itemvalue="JUnit.HP01PanelCocineroTest" />
       </list>
     </recent_temporary>
   </component>

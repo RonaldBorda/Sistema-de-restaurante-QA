@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="" />
+    <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/selenium-tests.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP01PanelCocineroTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP01PanelCocineroTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP02PanelCocineroSeccionesTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP02PanelCocineroSeccionesTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP03CambiarEstadoPreparacionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP03CambiarEstadoPreparacionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP04MarcarPedidoEntregadoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP04MarcarPedidoEntregadoTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP05FlujoCompletoEstadosTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-tests.HP05FlujoCompletoEstadosTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP01PanelCocineroTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP01PanelCocineroTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP02PanelCocineroSeccionesTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP02PanelCocineroSeccionesTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP03CambiarEstadoPreparacionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP03CambiarEstadoPreparacionTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP04MarcarPedidoEntregadoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP04MarcarPedidoEntregadoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/tests.HP05FlujoCompletoEstadosTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/tests.HP05FlujoCompletoEstadosTest.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,13 +42,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.HP05FlujoCompletoEstadosTest">
     <configuration name="HP01PanelCocineroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RestauranteAutomation" />

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CocineroPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CocineroPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="5c8476c4-42c4-4e86-91d9-1b01105b828c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

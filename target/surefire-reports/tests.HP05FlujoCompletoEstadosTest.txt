@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.HP05FlujoCompletoEstadosTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.017 s <<< FAILURE! -- in tests.HP05FlujoCompletoEstadosTest
-tests.HP05FlujoCompletoEstadosTest.flujoCompletoDeEstadosPedido -- Time elapsed: 7.016 s <<< FAILURE!
-org.opentest4j.AssertionFailedError: No existe ningún pedido pendiente para iniciar el flujo completo. ==> expected: <true> but was: <false>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
-	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
-	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:214)
-	at tests.HP05FlujoCompletoEstadosTest.flujoCompletoDeEstadosPedido(HP05FlujoCompletoEstadosTest.java:22)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.11 s -- in tests.HP05FlujoCompletoEstadosTest

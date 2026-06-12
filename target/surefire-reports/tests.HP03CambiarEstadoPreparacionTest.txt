@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.HP03CambiarEstadoPreparacionTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13.19 s -- in tests.HP03CambiarEstadoPreparacionTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.25 s -- in tests.HP03CambiarEstadoPreparacionTest

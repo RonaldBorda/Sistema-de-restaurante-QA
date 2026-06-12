@@ -13,3 +13,16 @@
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP07FiltrarPedidosTodosTest.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP08FiltrarPedidosEstadoMesTest.java
 /Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP09GenerarCuentaTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP10RegistroExitosoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP11RegistroNombreMinimoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP12RegistroContrasenaSeisCaracteresTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP13LoginCamareroExitosoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP14LoginCocineroExitosoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP15LoginAdministradorExitosoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP16LoginConContrasenaIncorrectaTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP17LoginCamposVaciosTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP18LoginUsuarioNoRegistradoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP19CrearPedidoUnProductoTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP20CrearPedidoMultiplesProductosTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP21CrearPedidoCantidadMinimaTest.java
+/Users/ronaldborda/Documents/workspace-Java/RestauranteAutomation/src/test/java/tests/HP22ProductoDeshabilitadoNoVisibleTest.java

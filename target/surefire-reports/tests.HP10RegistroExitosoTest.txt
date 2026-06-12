@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.HP10RegistroExitosoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.022 s -- in tests.HP10RegistroExitosoTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.288 s -- in tests.HP10RegistroExitosoTest

@@ -9,6 +9,10 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
+import java.util.List;
 
 public class HP21CrearPedidoCantidadMinimaTest extends BaseTest {
 
@@ -17,41 +21,58 @@ public class HP21CrearPedidoCantidadMinimaTest extends BaseTest {
         try {
             System.out.println("CP-021: Crear pedido con cantidad mínima de 1 unidad");
 
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
             LoginPage loginPage = new LoginPage(driver);
             loginPage.abrirLogin();
             loginPage.iniciarSesion("camarero", "123");
 
-            driver.findElement(
+            wait.until(d -> d.findElement(
                     By.xpath("//a[contains(text(),'Crear pedido') or contains(text(),'Crear Pedido')]")
-            ).click();
+            )).click();
 
-            Select productos = new Select(driver.findElements(By.tagName("select")).get(0));
-            productos.selectByVisibleText(productos.getOptions().get(1).getText());
+            List<WebElement> selects = wait.until(d -> d.findElements(By.tagName("select")));
+            Assertions.assertFalse(selects.isEmpty(), "No se encontró el selector de productos.");
 
-            WebElement cantidad = driver.findElement(By.cssSelector("input[type='number']"));
+            Select productos = new Select(selects.get(0));
+            String productoSeleccionado = productos.getOptions().get(1).getText();
+            productos.selectByVisibleText(productoSeleccionado);
+
+            WebElement cantidad = wait.until(d ->
+                    d.findElement(By.cssSelector("input[type='number']"))
+            );
             cantidad.clear();
             cantidad.sendKeys("1");
 
-            driver.findElement(By.xpath("//button[contains(text(),'Agregar')]")).click();
+            wait.until(d -> d.findElement(
+                    By.xpath("//button[contains(text(),'Agregar')]")
+            )).click();
 
-            String textoPagina = driver.getPageSource();
+            boolean totalValido = wait.until(d -> {
+                String texto = d.getPageSource();
+                return texto.contains("Total:")
+                        && !texto.contains("Total: S/. 0.00");
+            });
 
             Assertions.assertTrue(
-                    textoPagina.contains("Total:")
-                            && !textoPagina.contains("Total: S/. 0.00"),
+                    totalValido,
                     "El sistema no aceptó la cantidad mínima de 1 unidad."
             );
 
-            driver.findElement(
+            wait.until(d -> d.findElement(
                     By.xpath("//button[contains(text(),'Guardar Pedido') or contains(text(),'Guardar pedido')]")
-            ).click();
+            )).click();
 
-            String textoFinal = driver.getPageSource();
+            boolean pedidoRegistrado = wait.until(d -> {
+                String texto = d.getPageSource();
+                return texto.contains("Pedidos Actuales")
+                        || texto.contains("Pendiente")
+                        || texto.contains("pending")
+                        || texto.contains(productoSeleccionado);
+            });
 
             Assertions.assertTrue(
-                    textoFinal.contains("Pedidos Actuales")
-                            || textoFinal.contains("pending")
-                            || textoFinal.contains("Pendiente"),
+                    pedidoRegistrado,
                     "El pedido con cantidad mínima 1 no se registró correctamente."
             );
 

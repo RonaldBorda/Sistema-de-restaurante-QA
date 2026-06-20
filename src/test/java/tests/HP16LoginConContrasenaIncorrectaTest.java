@@ -5,6 +5,9 @@ import pages.LoginPage;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.Duration;
 
 public class HP16LoginConContrasenaIncorrectaTest extends BaseTest {
 
@@ -13,13 +16,16 @@ public class HP16LoginConContrasenaIncorrectaTest extends BaseTest {
         try {
             System.out.println("CP-010: Login fallido con contraseña incorrecta");
 
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
             LoginPage loginPage = new LoginPage(driver);
             loginPage.abrirLogin();
             loginPage.iniciarSesion("camarero", "incorrecta99");
 
-            boolean loginSigueVisible =
-                    !driver.findElements(By.name("username")).isEmpty()
-                            && !driver.findElements(By.name("password")).isEmpty();
+            boolean loginSigueVisible = wait.until(d ->
+                    !d.findElements(By.name("username")).isEmpty()
+                            && !d.findElements(By.name("password")).isEmpty()
+            );
 
             Assertions.assertTrue(
                     loginSigueVisible,
@@ -27,6 +33,7 @@ public class HP16LoginConContrasenaIncorrectaTest extends BaseTest {
             );
 
             System.out.println("CP-010 ejecutado correctamente.");
+
         } catch (Exception e) {
             Assertions.fail("Error durante la ejecución de CP-010: " + e.getMessage());
         }

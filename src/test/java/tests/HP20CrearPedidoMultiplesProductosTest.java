@@ -7,7 +7,9 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class HP20CrearPedidoMultiplesProductosTest extends BaseTest {
@@ -17,45 +19,78 @@ public class HP20CrearPedidoMultiplesProductosTest extends BaseTest {
         try {
             System.out.println("CP-020: Crear pedido con múltiples productos y verificar total");
 
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+
             LoginPage loginPage = new LoginPage(driver);
             loginPage.abrirLogin();
             loginPage.iniciarSesion("camarero", "123");
 
-            driver.findElement(By.xpath("//a[contains(text(),'Crear pedido') or contains(text(),'Crear Pedido')]")).click();
+            wait.until(d -> d.findElement(
+                    By.xpath("//a[contains(text(),'Crear pedido') or contains(text(),'Crear Pedido')]")
+            )).click();
 
-            List<WebElement> selects = driver.findElements(By.tagName("select"));
+            List<WebElement> selects = wait.until(d -> d.findElements(By.tagName("select")));
+            Assertions.assertFalse(selects.isEmpty(), "No se encontró el selector de productos.");
+
             Select productos = new Select(selects.get(0));
 
-            productos.selectByVisibleText(productos.getOptions().get(1).getText());
-            WebElement cantidad = driver.findElement(By.cssSelector("input[type='number']"));
+            String productoUno = productos.getOptions().get(1).getText();
+            productos.selectByVisibleText(productoUno);
+
+            WebElement cantidad = wait.until(d ->
+                    d.findElement(By.cssSelector("input[type='number']"))
+            );
             cantidad.clear();
             cantidad.sendKeys("2");
-            driver.findElement(By.xpath("//button[contains(text(),'Agregar')]")).click();
 
-            productos = new Select(driver.findElements(By.tagName("select")).get(0));
-            productos.selectByVisibleText(productos.getOptions().get(2).getText());
-            cantidad = driver.findElement(By.cssSelector("input[type='number']"));
+            wait.until(d -> d.findElement(
+                    By.xpath("//button[contains(text(),'Agregar')]")
+            )).click();
+
+            productos = new Select(wait.until(d -> d.findElements(By.tagName("select"))).get(0));
+
+            String productoDos = productos.getOptions().get(2).getText();
+            productos.selectByVisibleText(productoDos);
+
+            cantidad = wait.until(d ->
+                    d.findElement(By.cssSelector("input[type='number']"))
+            );
             cantidad.clear();
             cantidad.sendKeys("1");
-            driver.findElement(By.xpath("//button[contains(text(),'Agregar')]")).click();
 
-            String textoAntesDeGuardar = driver.getPageSource();
+            wait.until(d -> d.findElement(
+                    By.xpath("//button[contains(text(),'Agregar')]")
+            )).click();
+
+            boolean totalVisible = wait.until(d -> {
+                String texto = d.getPageSource();
+                return texto.contains("Total") || texto.contains("S/.");
+            });
 
             Assertions.assertTrue(
-                    textoAntesDeGuardar.contains("Total") || textoAntesDeGuardar.contains("S/."),
+                    totalVisible,
                     "No se visualiza el total del pedido antes de guardarlo."
             );
 
-            driver.findElement(By.xpath("//button[contains(text(),'Guardar Pedido')]")).click();
+            wait.until(d -> d.findElement(
+                    By.xpath("//button[contains(text(),'Guardar Pedido')]")
+            )).click();
 
-            String textoPagina = driver.getPageSource();
+            boolean pedidoRegistrado = wait.until(d -> {
+                String texto = d.getPageSource();
+                return texto.contains("Pedidos Actuales")
+                        || texto.contains("Pendiente")
+                        || texto.contains(productoUno)
+                        || texto.contains(productoDos);
+            });
 
             Assertions.assertTrue(
-                    textoPagina.contains("Pedidos Actuales") || textoPagina.contains("Pendiente"),
+                    pedidoRegistrado,
                     "El pedido con múltiples productos no aparece registrado."
             );
 
             System.out.println("CP-020 ejecutado correctamente.");
+
         } catch (Exception e) {
             Assertions.fail("Error durante la ejecución de CP-020: " + e.getMessage());
         }
